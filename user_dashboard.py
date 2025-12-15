@@ -8,7 +8,7 @@ import os
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("sk-or-v1-5713e63154bbc233d1ac19be5846a16120dab93d4232b31e7c94120cf542f378v")
+    api_key=os.getenv("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")
 )
 
 
