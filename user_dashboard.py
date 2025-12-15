@@ -5,10 +5,12 @@ import json
 from datetime import datetime
 from openai import OpenAI
 import os
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("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")
+    api_key=os.getenv("sk-or-v1-5713e63154bbc233d1ac19be5846a16120dab93d4232b31e7c94120cf542f378v")
 )
+
 
 
 def generate_ai_response(prompt):
