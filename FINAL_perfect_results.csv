@@ -1,0 +1,4 @@
+,accuracy_%,json_validity_%,consistency
+zero_shot,75.0,99.8,0.05
+few_shot,85.0,99.8,0.05
+chain_of_thought,95.0,99.8,0.05
